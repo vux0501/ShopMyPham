@@ -18,6 +18,10 @@ spring:
      uri: http://localhost:4001/
      predicates:
      - Path=/cart/**
+   - id: authService
+     uri: http://localhost:8080/
+     predicates:
+     - Path=/**
 
 
 
