@@ -6,10 +6,12 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import net.bytebuddy.asm.Advice.Return;
 import spring.jwt.auth.UserPrincipal;
 import spring.jwt.entity.Token;
 import spring.jwt.entity.User;
@@ -61,6 +63,12 @@ public class AuthController {
 
         return ResponseEntity.ok(token.getToken());
     }
+	
+	@GetMapping("/findByToken/{token}")
+	public Token findByToken(@PathVariable String token){
+		return tokenService.findByToken(token);
+	}
+	
 
 
 }

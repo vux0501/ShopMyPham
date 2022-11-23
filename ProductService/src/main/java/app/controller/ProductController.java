@@ -3,6 +3,7 @@ package app.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,26 +23,26 @@ public class ProductController {
 	@Autowired
 	private ProductService productService;
 	
-	
+	@PreAuthorize("hasAnyAuthority('READ')")
 	@GetMapping()
 	public List<Product> findAll() {
 		return productService.getAllProduct();
 	}
 	
-	
+	@PreAuthorize("hasAnyAuthority('READ')")
 	@GetMapping("/{id}")
 	public Product getProduct(@PathVariable String id) {
 		System.out.println(id);
 		return productService.getProductById(id);
 	}
 	
-
+	@PreAuthorize("hasAnyAuthority('ADMIN_CREATE')")
 	@PostMapping()
 	public Product save(@RequestBody Product product) {
 		return productService.addProduct(product);
 	}
 	
-
+	@PreAuthorize("hasAnyAuthority('ADMIN_DELETE')")
 	@DeleteMapping("/{id}")
 	public String delete(@PathVariable String id) {
 		System.out.println(id);
@@ -49,6 +50,7 @@ public class ProductController {
 		return "da xoa";
 	}
 	
+	@PreAuthorize("hasAnyAuthority('ADMIN_UPDATE')")
 	@PutMapping("/{id}")
 	public Product put(@PathVariable String id, @RequestBody Product product) throws Exception {
 		Product prd = productService.getProductById(id);

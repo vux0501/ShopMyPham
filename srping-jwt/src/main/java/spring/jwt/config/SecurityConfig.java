@@ -35,6 +35,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
         .authorizeRequests()
         .antMatchers("/register")
         .permitAll()
+        .antMatchers("/findByToken/**")
+        .permitAll()
         .antMatchers("/api/*")
         .permitAll();
         
@@ -48,6 +50,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 	
 }
 
-// aplication.properties -> security -> entity -> repository -> service -> controller -> jwt -> docker -> docke-compose -> activemq -
-// config
 

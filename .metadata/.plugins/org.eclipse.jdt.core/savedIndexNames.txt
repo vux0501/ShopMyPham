@@ -22,7 +22,6 @@ INDEX VERSION 1.131+D:\ShopMyPham\.metadata\.plugins\org.eclipse.jdt.core
 2059527533.index
 3362916644.index
 3651061590.index
-1104214305.index
 245681334.index
 2933474735.index
 105774788.index
@@ -30,7 +29,6 @@ INDEX VERSION 1.131+D:\ShopMyPham\.metadata\.plugins\org.eclipse.jdt.core
 2182287901.index
 3282288660.index
 2055844876.index
-3673686719.index
 4129947972.index
 3006422076.index
 2211311519.index
@@ -44,11 +42,9 @@ INDEX VERSION 1.131+D:\ShopMyPham\.metadata\.plugins\org.eclipse.jdt.core
 3037678151.index
 292802889.index
 1914181345.index
-262767494.index
 4155383200.index
 2653458507.index
 1099224056.index
-350071259.index
 1865797976.index
 3390690700.index
 4001534307.index
@@ -60,7 +56,6 @@ INDEX VERSION 1.131+D:\ShopMyPham\.metadata\.plugins\org.eclipse.jdt.core
 2831888039.index
 4152726473.index
 2075115507.index
-422622767.index
 2283630802.index
 2276771797.index
 3118160145.index
@@ -89,9 +84,7 @@ INDEX VERSION 1.131+D:\ShopMyPham\.metadata\.plugins\org.eclipse.jdt.core
 2807329063.index
 1989314592.index
 3691461154.index
-3832038338.index
 1258718195.index
 3163816092.index
 1018512782.index
 1685473448.index
-3312022314.index
