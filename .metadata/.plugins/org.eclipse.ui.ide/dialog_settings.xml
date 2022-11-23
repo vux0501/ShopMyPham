@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\hvudt\OneDrive\Desktop\19478651_NguyenHoangVu\TH_19478651_NguyenHoangVu\CAU_5\StudentService"/>
+			<item value="C:\Users\hvudt\OneDrive\Desktop\19478651_NguyenHoangVu\TH_19478651_NguyenHoangVu\CAU_5\MentorService"/>
+			<item value="D:\Download\demo-microservice-master\demo-microservice-master\maybay-crud"/>
+			<item value="D:\CODE\NAM 4\KTPM\spring-jwt-master\srping-jwt"/>
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\ShopMyPham\srping-jwt"/>
+			<item value="D:\ShopMyPham\SpringCloudConfig"/>
+			<item value="D:\ShopMyPham\ProductService"/>
+			<item value="D:\ShopMyPham\DiscoveryService"/>
+			<item value="D:\ShopMyPham\CartService"/>
+			<item value="D:\ShopMyPham\ApiGateway"/>
+			<item value="C:\Users\hvudt\OneDrive\Desktop\19478651_NguyenHoangVu\TH_19478651_NguyenHoangVu\CAU_2\StudentService"/>
+			<item value="D:\CODE\NAM 4\KTPM\OnTH\Cau1\PassengerService"/>
+			<item value="D:\CODE\NAM 4\KTPM\OnTH\Cau1\BillingService"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="611"/>
+		<item key="DIALOG_Y_ORIGIN" value="274"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

@@ -1,0 +1,16 @@
+resilience4j.retry:
+    instances:
+        product:
+            registerHealthIndicator: true
+            maxAttempts: 5
+            waitDuration: 10s
+            
+spring:
+ application:
+  name: CART-SERVICE
+ config:
+  import:optional:configserver:
+ cloud:
+  config:
+   uri: http://localhost:8888
+
